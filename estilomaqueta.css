@@ -1,0 +1,118 @@
+* {
+	margin:0;
+	padding:0;
+}
+body{
+	font: .74em Sans-Serif; 
+	color: #444; 
+	background: #D6D1CF; 
+	line-height: 1.6em;
+	text-align: justify;
+}
+header,section,footer,aside,nav,article,hgroup{
+	display: block;
+}
+
+p{
+width: 50%;
+}
+section{
+display: block;
+}
+
+.Banner-1 h1{
+	padding: 20px;
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #fff; 
+}
+img{
+	height: 80px;
+
+	border: 2px solid black;
+
+}
+
+.columna1{
+
+	float:left;
+}
+.columna2{
+	float:right;
+}
+.Banner-1{
+	background: url(imagenes/imagencabezote.jpg);
+	float:left;
+	width: 100%;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.menu{
+	padding: 70px 20px;
+	text-align: left;
+}
+.menu li{
+	list-style: none;
+	padding: 15px;
+	font: bold 15px Sans-Serif;
+	display: inline-block;
+	border-right: 1px solid #505052; 
+    padding: 0 22px 0 0; 
+	margin: 30px 22px 0 0; 
+	color: #ddd;
+
+}
+.menu a{
+	color: #fff;
+}
+.seccion{
+	width: 100%;
+	display: inline-block;
+}
+.seccion  li{
+	list-style: none;
+	font: bold 10px Sans-Serif;
+	display: inline-block;
+
+	width: 32%;
+
+}
+.seccion h1{
+	color: #008080;
+	font-size: : 1.4em; 
+	text-shadow: 1px 1px 1px #fff; 
+	margin: 0 0px 15px;
+	padding-top: 10px;
+
+}
+.texto{
+	font-size: 1.2em;
+	margin-right:120px;	
+	width: 200px;
+
+float:right;
+}
+.texto2{
+	font-size: 1.4em; text-shadow: 1px 1px 1px #fff; margin: 0 0 10px; color: #008080;
+	float: right;
+
+}
+.texto3{
+	font-size: 1.2em; margin: 0 0 6px;
+	width: 225px; color: #808080; background: #fff; padding: 11px; margin: 0 0 20px;
+
+
+}
+.texto3 a{
+	 color: #444;
+}
+
+.pie a{
+	color: #008080;
+}
+.pie{
+	padding-top: 80px;
+	color: #999;
+}
